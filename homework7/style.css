@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(to right, #3d202c, #af4c7d);
+    color: rgb(255, 203, 219);
+    font-family: 'Figtree', sans-serif;
+    font-size: 14px;
+}
+
+header {
+    background: linear-gradient(to right, #1c1c1c, #3c3c3c);
+    color: rgb(232,154,184);
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    background: linear-gradient(to right, #1c1c1c, #3c3c3c);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+a {
+    color: rgb(255,203,219);
+    text-decoration: none;
+}
+
+.card {
+    background-color: #3d202c;
+    color: white;
+    transition: 0.5s, transform 0.3s ease;
+}
+
+.card:hover {
+    background-color: #be97a7;
+    box-shadow: 0 0 40px #d4a7ba;
+    transform: scale(1.05);
+}
