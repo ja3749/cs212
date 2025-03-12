@@ -1,0 +1,92 @@
+body {
+    background: rgb(198, 198, 198);
+    color: black;
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+    transition: 0.5s, transform 0.3s ease;
+}
+
+body.dark {
+    background: rgb(15, 15, 15);
+    color: white;
+}
+
+header {
+    background: linear-gradient(to right,rgb(132, 132, 132),rgb(215, 215, 215));
+    color: black;
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s, transform 0.3s ease;
+}
+
+footer {
+    background: linear-gradient(to right,rgb(132, 132, 132),rgb(215, 215, 215));
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    transition: 0.5s, transform 0.3s ease;
+}
+
+header.dark, footer.dark {
+    background: linear-gradient(to right, #1c1c1c, #3c3c3c);
+    color: white;
+}
+
+input {
+    background-color: white;
+    color: black
+}
+
+input.dark {
+    color:white;
+    background-color: #3c3c3c;
+}
+
+a {
+    color: rgb(195, 95, 130);
+    text-decoration: none;
+}
+
+.card {
+    background-color: #a86f7e ;
+    color: white;
+    transition: 0.5s, transform 0.3s ease;
+}
+
+.card.dark {
+    background-color: #402e33;
+}
+
+.card:hover {
+    background-color: #E2a8B3;
+    box-shadow: 0 0 40px #d4a7ba;
+    color: black;
+    transform: scale(1.05);
+}
+
+.card.dark:hover {
+    background-color: #95596a;
+    color: white;
+    box-shadow: 0 0 40px #663340;
+}
+
+.navbar{
+    background: linear-gradient(to right,rgb(96, 96, 96),rgb(227, 227, 227));
+}
+
+.nav-link {
+    color: black;
+}
+
+.navbar.dark {
+    background: linear-gradient(to right,rgb(0, 0, 0),rgb(73, 73, 73));
+}
+
+.nav-link.dark {
+    color: white;
+}
+
+.nav-link {
+    color: black;
+}
